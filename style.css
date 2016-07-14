@@ -1,0 +1,15 @@
+td{
+    width:100px;
+    height:125px;
+    
+}
+.vertical{
+    border-style:solid;
+    border-color:black;
+    border-width:0px 2px 0px 2px;
+}
+.horizontal{
+    border-style:solid;
+    border-color:black;
+    border-width:2px 0px 2px 0px;
+}

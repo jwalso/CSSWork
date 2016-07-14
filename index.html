@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CXSS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+    <table>
+        <tr id="one">
+            <td></td>
+            <td class="vertical"></td>
+            <td></td>
+        </tr>
+         <tr id="two">
+            <td class="horizontal"></td>
+            <td class="horizontal vertical"></td>
+            <td class="horizontal"></td>
+        </tr>
+         <tr id="three">
+            <td></td>
+            <td class="vertical"></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
